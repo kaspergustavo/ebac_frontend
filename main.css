@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body >header {
+    background-color: #000000;
+    padding: 30px 0;
+    color: #ffffff;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+    height: 400px;
+    width: 330px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article p
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#technology {
+    background-color: rgba(113, 113, 113, 0.8);
+}
+
+#technology .articles article a {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+#entertainment {
+    background-color: rgba(52, 52, 52, 0.8);
+    ;
+}
+
+#entertainment .articles article a {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
