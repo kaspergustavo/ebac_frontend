@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PRATICANDO HMTL & JS</h1>
+        <h2>Atividade Módulo 7</h2>
+        <form id="myForm">
+            <label for="campoA">Campo A:</label>
+            <input type="number" id="campoA"  required placeholder="Digite um número de 0 a 8" min="0" max="8">
+            <br>
+            <label for="campoB">Campo B:</label>
+            <input type="number" id="campoB" required placeholder="Digite um número que seja maior que o número escolhido no campo anterior" min="1" max="9">
+            <br>
+            <button type="submit">Validar</button>
+        </form>
+        <p id="errorMessage"></p>
+        <p id="successMessage"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

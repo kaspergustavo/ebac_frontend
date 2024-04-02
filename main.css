@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    margin: 80px auto;
+    max-width: 650px;
+    padding: 100px;
+    width: 100%;
+}
+
+input[type="number"],
+button, textarea {
+    display: block;
+    padding: 5px;
+    margin-bottom: 2px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00000093;
+}
+
+#errorMessage {
+    margin-top: 5px;
+    font-weight: bold;
+    color: red;
+}
+
+#successMessage {
+    margin-top: 5px;
+    font-weight: bold;
+    color: green;
+}
