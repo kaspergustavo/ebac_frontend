@@ -1,0 +1,70 @@
+@corDeFundo: #2c2c54;
+@corDoContainer: #40407a;
+@corDoTexto: #f7f1e3;
+@corDoBotao: #218c74;
+@corDoBtnHover: #33d9b2;
+@corDeTextoSecundaria: #d1ccc0;
+@fontePrincipal: "Roboto", sans-serif;
+@fonteSecundaria: "Kanit", sans-serif;
+
+.borderRadius {
+    border-radius: 20px;
+}
+
+.fontWeight {
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: @fontePrincipal;
+    background-color: @corDeFundo;
+    color: @corDoTexto;
+}
+
+.container {
+    text-align: center;
+    background: @corDoContainer;
+    padding: 20px;
+    .borderRadius();
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: @corDoTexto;
+}
+
+h1 {
+    font-family: @fonteSecundaria;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: @corDoBotao;
+    color: @corDeTextoSecundaria;
+    border: none;
+    .borderRadius();
+    .fontWeight();
+    
+}
+
+button:hover {
+    background-color: @corDoBtnHover;
+}
+
+p {
+    font-size: 1.5em;
+    color: @corDoTexto;
+    padding: 10px;
+    font-family: @fontePrincipal;
+    font-weight: bolder;
+
+    span {
+        color: @corDeTextoSecundaria;
+        font-weight: bold;
+    }
+}
